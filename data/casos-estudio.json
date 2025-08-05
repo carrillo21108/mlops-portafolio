@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Netflix: Sistemas de Recomendación a Escala",
+        "description": "Análisis detallado de la arquitectura MLOps de Netflix para sus sistemas de recomendación que sirven a más de 200 millones de usuarios globalmente.",
+        "tags": ["Case Study", "Recommendation Systems", "Scale", "A/B Testing"],
+        "link": "casos-estudio/netflix-recomendaciones.html",
+        "company": "Netflix",
+        "industry": "Streaming"
+    },
+    {
+        "title": "Uber: ML en Tiempo Real para Precios Dinámicos",
+        "description": "Estudio de cómo Uber implementa machine learning en producción para optimización de rutas, precios dinámicos y matching de conductores.",
+        "tags": ["Real-time ML", "Dynamic Pricing", "Optimization", "Microservices"],
+        "link": "casos-estudio/uber-pricing.html",
+        "company": "Uber",
+        "industry": "Transportation"
+    },
+    {
+        "title": "Amazon: Personalización de Productos",
+        "description": "Análisis de la plataforma de personalización de Amazon que potencia recomendaciones de productos y optimización de la experiencia de compra.",
+        "tags": ["Personalization", "E-commerce", "Recommendation", "Feature Store"],
+        "link": "casos-estudio/amazon-personalization.html",
+        "company": "Amazon",
+        "industry": "E-commerce"
+    },
+    {
+        "title": "Spotify: Descubrimiento Musical con ML",
+        "description": "Estudio del sistema de descubrimiento musical de Spotify, incluyendo Discover Weekly y Release Radar, y su infraestructura MLOps.",
+        "tags": ["Music Recommendation", "Content Discovery", "Audio Analysis", "Collaborative Filtering"],
+        "link": "casos-estudio/spotify-discovery.html",
+        "company": "Spotify",
+        "industry": "Music Streaming"
+    },
+    {
+        "title": "Tesla: AutoPilot y ML en Vehículos Autónomos",
+        "description": "Análisis de la infraestructura de machine learning de Tesla para el desarrollo y deployment de sistemas de conducción autónoma.",
+        "tags": ["Autonomous Vehicles", "Computer Vision", "Edge Computing", "Data Collection"],
+        "link": "casos-estudio/tesla-autopilot.html",
+        "company": "Tesla",
+        "industry": "Automotive"
+    },
+    {
+        "title": "LinkedIn: Optimización de Feed y Conexiones",
+        "description": "Estudio de cómo LinkedIn utiliza MLOps para optimizar el feed de noticias y sugerir conexiones profesionales relevantes.",
+        "tags": ["Social Networks", "Feed Optimization", "Professional Networks", "Ranking"],
+        "link": "casos-estudio/linkedin-feed.html",
+        "company": "LinkedIn",
+        "industry": "Social Media"
+    }
+]

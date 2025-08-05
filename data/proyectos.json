@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Sistema de Predicción de Demanda E-commerce",
+        "description": "Pipeline MLOps completo para predecir la demanda de productos en una plataforma de e-commerce. Incluye feature engineering, selección de modelos, deployment automatizado y monitoreo continuo.",
+        "tags": ["Python", "MLflow", "Docker", "Kubernetes", "Apache Airflow"],
+        "link": "proyectos/prediccion-demanda.html",
+        "status": "Completado",
+        "date": "2024-12"
+    },
+    {
+        "title": "Detección de Fraude en Transacciones",
+        "description": "Implementación de un sistema de detección de fraude en tiempo real utilizando modelos de machine learning y arquitectura de microservicios para procesamiento de alta velocidad.",
+        "tags": ["Real-time ML", "Apache Kafka", "TensorFlow", "Monitoring", "CI/CD"],
+        "link": "proyectos/deteccion-fraude.html",
+        "status": "En desarrollo",
+        "date": "2025-01"
+    },
+    {
+        "title": "Recomendaciones Personalizadas",
+        "description": "Sistema de recomendaciones híbrido que combina filtrado colaborativo y content-based filtering, con A/B testing integrado para optimización continua.",
+        "tags": ["Recommendation Systems", "A/B Testing", "PyTorch", "Redis", "PostgreSQL"],
+        "link": "proyectos/recomendaciones.html",
+        "status": "Planificado",
+        "date": "2025-02"
+    },
+    {
+        "title": "Análisis de Sentimientos en Redes Sociales",
+        "description": "Pipeline de procesamiento de texto para análisis de sentimientos en tiempo real de menciones en redes sociales, con dashboard de visualización interactivo.",
+        "tags": ["NLP", "Transformers", "Streamlit", "AWS", "Data Pipeline"],
+        "link": "proyectos/analisis-sentimientos.html",
+        "status": "Completado",
+        "date": "2024-11"
+    }
+]

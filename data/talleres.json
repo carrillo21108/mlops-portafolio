@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Taller: Introducción a MLOps",
+        "description": "Taller introductorio que cubre los fundamentos de MLOps, desde conceptos básicos hasta la implementación de un pipeline simple de machine learning.",
+        "tags": ["Introduction", "MLOps Basics", "Pipeline", "Best Practices"],
+        "link": "talleres/intro-mlops.html",
+        "duration": "4 horas",
+        "level": "Principiante"
+    },
+    {
+        "title": "Taller: CI/CD para Machine Learning",
+        "description": "Taller práctico sobre implementación de pipelines de integración y despliegue continuo específicamente diseñados para proyectos de machine learning.",
+        "tags": ["CI/CD", "GitHub Actions", "Testing", "Automation", "MLOps"],
+        "link": "talleres/cicd-ml.html",
+        "duration": "6 horas",
+        "level": "Intermedio"
+    },
+    {
+        "title": "Taller: Monitoreo y Observabilidad de Modelos",
+        "description": "Implementación práctica de sistemas de monitoreo para detectar data drift, model drift y degradación de performance en modelos productivos.",
+        "tags": ["Monitoring", "Data Drift", "Model Performance", "Observability", "Prometheus"],
+        "link": "talleres/monitoring-models.html",
+        "duration": "5 horas",
+        "level": "Avanzado"
+    },
+    {
+        "title": "Taller: Feature Stores y Gestión de Datos",
+        "description": "Diseño e implementación de feature stores para gestión centralizada de características, versionado y reutilización en múltiples modelos.",
+        "tags": ["Feature Store", "Data Management", "Feast", "Data Versioning"],
+        "link": "talleres/feature-stores.html",
+        "duration": "4 horas",
+        "level": "Intermedio"
+    },
+    {
+        "title": "Taller: Model Registry y Versionado",
+        "description": "Gestión avanzada de modelos utilizando registros centralizados, versionado semántico y estrategias de deployment de modelos.",
+        "tags": ["Model Registry", "Versioning", "MLflow", "Model Management"],
+        "link": "talleres/model-registry.html",
+        "duration": "3 horas",
+        "level": "Intermedio"
+    },
+    {
+        "title": "Taller: A/B Testing para Modelos ML",
+        "description": "Implementación de experimentos A/B para validar mejoras en modelos de machine learning y medir impacto en métricas de negocio.",
+        "tags": ["A/B Testing", "Experimentation", "Statistical Analysis", "Business Metrics"],
+        "link": "talleres/ab-testing-ml.html",
+        "duration": "5 horas",
+        "level": "Avanzado"
+    },
+    {
+        "title": "Taller: Deployment en la Nube",
+        "description": "Estrategias y herramientas para deployment de modelos ML en diferentes plataformas cloud (AWS, GCP, Azure) con enfoque en escalabilidad.",
+        "tags": ["Cloud Deployment", "AWS", "GCP", "Azure", "Scalability"],
+        "link": "talleres/cloud-deployment.html",
+        "duration": "6 horas",
+        "level": "Avanzado"
+    },
+    {
+        "title": "Taller: MLOps con Kubernetes",
+        "description": "Orquestación avanzada de workloads de machine learning utilizando Kubernetes, incluyendo Kubeflow y operadores especializados.",
+        "tags": ["Kubernetes", "Kubeflow", "Orchestration", "Container Management"],
+        "link": "talleres/mlops-kubernetes.html",
+        "duration": "8 horas",
+        "level": "Experto"
+    }
+]

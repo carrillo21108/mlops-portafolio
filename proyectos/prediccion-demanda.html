@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Predicción de Demanda - MLOps Portafolio</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/project-detail.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><a href="../index.html" style="color: white; text-decoration: none;">MLOps Portafolio</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#proyectos" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#laboratorios" class="nav-link">Laboratorios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#casos-estudio" class="nav-link">Casos de Estudio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#talleres" class="nav-link">Talleres</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <article class="project-detail">
+                <header class="project-header">
+                    <h1 class="project-title">Sistema de Predicción de Demanda E-commerce</h1>
+                    <div class="project-meta">
+                        <span class="project-status completed">Completado</span>
+                        <span class="project-date">Diciembre 2024</span>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">MLflow</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Apache Airflow</span>
+                    </div>
+                </header>
+
+                <section class="project-overview">
+                    <h2>Descripción del Proyecto</h2>
+                    <p>Este proyecto implementa un pipeline MLOps completo para predecir la demanda de productos en una plataforma de e-commerce. El sistema incluye desde la ingesta y procesamiento de datos hasta el deployment automatizado de modelos en producción con monitoreo continuo.</p>
+                </section>
+
+                <section class="project-architecture">
+                    <h2>Arquitectura del Sistema</h2>
+                    <div class="architecture-diagram">
+                        <div class="diagram-placeholder">
+                            [Diagrama de Arquitectura - Próximamente]
+                        </div>
+                    </div>
+                    <ul>
+                        <li><strong>Ingesta de Datos:</strong> Apache Airflow para orquestación de pipelines de datos</li>
+                        <li><strong>Feature Engineering:</strong> Transformaciones automatizadas con validación de calidad</li>
+                        <li><strong>Entrenamiento:</strong> MLflow para tracking de experimentos y registro de modelos</li>
+                        <li><strong>Deployment:</strong> Contenedores Docker desplegados en Kubernetes</li>
+                        <li><strong>Monitoreo:</strong> Métricas de performance y data drift en tiempo real</li>
+                    </ul>
+                </section>
+
+                <section class="project-features">
+                    <h2>Características Principales</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>Pipeline Automatizado</h3>
+                            <p>Orquestación completa desde datos raw hasta modelo en producción</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Escalabilidad</h3>
+                            <p>Capacidad de procesar millones de transacciones diarias</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Monitoreo Continuo</h3>
+                            <p>Detección automática de drift y degradación de performance</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>CI/CD Integrado</h3>
+                            <p>Deployment automático con testing y validación</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-results">
+                    <h2>Resultados y Métricas</h2>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <h3>Precisión del Modelo</h3>
+                            <span class="metric-value">92.5%</span>
+                        </div>
+                        <div class="metric-card">
+                            <h3>Reducción de Inventario</h3>
+                            <span class="metric-value">15%</span>
+                        </div>
+                        <div class="metric-card">
+                            <h3>Tiempo de Predicción</h3>
+                            <span class="metric-value">&lt; 100ms</span>
+                        </div>
+                        <div class="metric-card">
+                            <h3>Uptime del Sistema</h3>
+                            <span class="metric-value">99.9%</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-tech-stack">
+                    <h2>Stack Tecnológico</h2>
+                    <div class="tech-categories">
+                        <div class="tech-category">
+                            <h3>Machine Learning</h3>
+                            <ul>
+                                <li>Python (scikit-learn, pandas, numpy)</li>
+                                <li>MLflow para experiment tracking</li>
+                                <li>Modelos: XGBoost, Random Forest, LSTM</li>
+                            </ul>
+                        </div>
+                        <div class="tech-category">
+                            <h3>Infraestructura</h3>
+                            <ul>
+                                <li>Docker para containerización</li>
+                                <li>Kubernetes para orquestación</li>
+                                <li>Apache Airflow para pipelines</li>
+                            </ul>
+                        </div>
+                        <div class="tech-category">
+                            <h3>Monitoreo</h3>
+                            <ul>
+                                <li>Prometheus para métricas</li>
+                                <li>Grafana para visualización</li>
+                                <li>ELK Stack para logs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-links">
+                    <h2>Enlaces y Recursos</h2>
+                    <div class="links-grid">
+                        <a href="#" class="link-card">
+                            <h3>Código en GitHub</h3>
+                            <p>Repositorio completo del proyecto</p>
+                        </a>
+                        <a href="#" class="link-card">
+                            <h3>Documentación</h3>
+                            <p>Guía completa de implementación</p>
+                        </a>
+                        <a href="#" class="link-card">
+                            <h3>Demo en Vivo</h3>
+                            <p>Demostración del sistema funcionando</p>
+                        </a>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MLOps Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
