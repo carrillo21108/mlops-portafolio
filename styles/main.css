@@ -392,3 +392,55 @@ body {
         padding: 1.5rem;
     }
 }
+
+/* ===== Estilos para páginas de casos y ejercicios ===== */
+.case-toc {
+    margin-top: 1.5rem;
+    background: var(--light-gray);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary-green);
+}
+
+.case-toc h3 {
+    color: var(--primary-green);
+    margin-bottom: 0.5rem;
+}
+
+.case-toc ol {
+    padding-left: 1.2rem;
+}
+
+.case-toc a {
+    color: var(--secondary-green);
+    text-decoration: none;
+}
+
+.case-toc a:hover {
+    text-decoration: underline;
+}
+
+.exercise-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px var(--shadow);
+    border-top: 4px solid var(--secondary-green);
+}
+
+.exercise-header { margin-bottom: 1rem; }
+.exercise-title { color: var(--primary-green); margin-bottom: 0.5rem; }
+
+.exercise-statement h3,
+.exercise-hints h3,
+.exercise-solution h3,
+.exercise-resources h3 {
+    color: var(--primary-green);
+    margin: 1rem 0 0.5rem;
+}
+
+.exercise-hints ul,
+.exercise-resources ul { padding-left: 1.2rem; }
+
+.exercise-nav { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }

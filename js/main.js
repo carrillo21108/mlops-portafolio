@@ -47,98 +47,29 @@ function initSmoothScrolling() {
 
 // Cargar contenido de las secciones
 async function loadSectionContent() {
-    try {
-        // Cargar datos de proyectos
-        const proyectosData = await loadData('proyectos');
-        renderCards('proyectos-content', proyectosData);
-
-        // Cargar datos de laboratorios
-        const laboratoriosData = await loadData('laboratorios');
-        renderCards('laboratorios-content', laboratoriosData);
-
-        // Cargar datos de casos de estudio
-        const casosEstudioData = await loadData('casos-estudio');
-        renderCards('casos-estudio-content', casosEstudioData);
-
-        // Cargar datos de talleres
-        const talleresData = await loadData('talleres');
-        renderCards('talleres-content', talleresData);
-
-    } catch (error) {
-        console.log('Usando datos de ejemplo mientras se configuran los archivos JSON');
-        loadSampleData();
-    }
-}
-
-// Cargar datos desde archivos JSON
-async function loadData(section) {
-    const response = await fetch(`data/${section}.json`);
-    if (!response.ok) {
-        throw new Error(`No se pudo cargar ${section}.json`);
-    }
-    return await response.json();
+    loadData();
 }
 
 // Datos de ejemplo para mostrar la funcionalidad
-function loadSampleData() {
+function loadData() {
     const sampleProyectos = [
-        {
-            title: "Sistema de Predicción de Demanda",
-            description: "Implementación de un pipeline MLOps para predecir la demanda de productos utilizando modelos de machine learning y deployment automatizado.",
-            tags: ["Python", "MLflow", "Docker", "Kubernetes"],
-            link: "#"
-        },
-        {
-            title: "Detección de Anomalías en Tiempo Real",
-            description: "Desarrollo de un sistema de monitoreo continuo para detectar anomalías en datos de producción usando streaming analytics.",
-            tags: ["Apache Kafka", "TensorFlow", "Monitoring", "CI/CD"],
-            link: "#"
-        }
     ];
 
     const sampleLaboratorios = [
-        {
-            title: "Lab 1: Configuración de MLflow",
-            description: "Configuración y uso de MLflow para el tracking de experimentos y gestión de modelos de machine learning.",
-            tags: ["MLflow", "Experiment Tracking", "Model Registry"],
-            link: "#"
-        },
-        {
-            title: "Lab 2: Containerización con Docker",
-            description: "Creación de contenedores Docker para aplicaciones de ML y su orquestación con Docker Compose.",
-            tags: ["Docker", "Containerization", "Microservices"],
-            link: "#"
-        }
     ];
 
     const sampleCasosEstudio = [
         {
-            title: "Caso Netflix: Sistemas de Recomendación",
-            description: "Análisis detallado de la arquitectura MLOps de Netflix para sus sistemas de recomendación a gran escala.",
-            tags: ["Case Study", "Recommendation Systems", "Scale"],
-            link: "#"
-        },
-        {
-            title: "Caso Uber: ML en Producción",
-            description: "Estudio de cómo Uber implementa machine learning en producción para optimización de rutas y precios dinámicos.",
-            tags: ["Production ML", "Real-time", "Optimization"],
-            link: "#"
+        "title": "Caso de Estudio 01: Tour de France",
+        "description": "Análisis de datos de la carrera ciclista más importante del mundo.",
+        "tags": ["CRIPS-DM", "Entendimiento de Negocio", "Entendimiento de datos"],
+        "link": "casos-estudio/caso-estudio01.html",
+        "company": "UVG",
+        "industry": "EDA"
         }
     ];
 
     const sampleTalleres = [
-        {
-            title: "Taller: CI/CD para ML",
-            description: "Taller práctico sobre implementación de pipelines de integración y despliegue continuo para modelos de machine learning.",
-            tags: ["CI/CD", "GitHub Actions", "Automation"],
-            link: "#"
-        },
-        {
-            title: "Taller: Monitoring de Modelos",
-            description: "Implementación de sistemas de monitoreo para detectar data drift y model drift en modelos productivos.",
-            tags: ["Monitoring", "Data Drift", "Model Performance"],
-            link: "#"
-        }
     ];
 
     renderCards('proyectos-content', sampleProyectos);

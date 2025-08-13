@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso de Estudio 01 - FNCG</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/project-detail.css">
+</head>
+<body id="top">
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><a href="../index.html" style="color: white; text-decoration: none;">MLOps Portafolio</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#proyectos" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#laboratorios" class="nav-link">Laboratorios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#casos-estudio" class="nav-link">Casos de Estudio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#talleres" class="nav-link">Talleres</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <article class="project-detail">
+                <header class="project-header">
+                    <h1 class="project-title" id="case-title">Caso de Estudio 01 - FNCG</h1>
+                    <div class="project-meta">
+                        <span class="project-date">PDF de referencia: <a id="case-source" href="../assets/docs/Caso01/C1-FNCG.pdf" target="_blank" style="color:#fff;text-decoration:underline;">C1-FNCG.pdf</a></span>
+                    </div>
+                </header>
+
+                <section class="project-overview">
+                    <h2>Descripción</h2>
+                    <p id="case-description">Ejercicios del Caso 01 basados en el documento proporcionado.</p>
+                    <nav class="case-toc">
+                        <h3>Contenido</h3>
+                        <ol id="case-toc-list"></ol>
+                    </nav>
+                </section>
+
+                <section class="case-exercises" id="case-exercises">
+                    <!-- Aquí se renderizan dinámicamente las secciones de ejercicios -->
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MLOps Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../js/case-page.js"></script>
+</body>
+</html>

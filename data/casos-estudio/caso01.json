@@ -1,0 +1,34 @@
+{
+  "titulo": "Caso de Estudio 01 - FNCG",
+  "descripcion": "Ejercicios del Caso 01 basados en el documento PDF proporcionado.",
+  "fuente": "../assets/docs/Caso01/C1-FNCG.pdf",
+  "ejercicios": [
+    {
+      "id": "ej1",
+      "titulo": "Ejercicio 1",
+      "objetivo": "Descripción breve del objetivo del ejercicio 1.",
+      "enunciado": "Coloca aquí el enunciado del ejercicio 1.",
+      "pistas": ["Pista 1", "Pista 2"],
+      "solucion": "Espacio reservado para la solución o conclusiones del ejercicio 1.",
+      "recursos": []
+    },
+    {
+      "id": "ej2",
+      "titulo": "Ejercicio 2",
+      "objetivo": "Descripción breve del objetivo del ejercicio 2.",
+      "enunciado": "Coloca aquí el enunciado del ejercicio 2.",
+      "pistas": ["Pista 1"],
+      "solucion": "Espacio reservado para la solución o conclusiones del ejercicio 2.",
+      "recursos": []
+    },
+    {
+      "id": "ej3",
+      "titulo": "Ejercicio 3",
+      "objetivo": "Descripción breve del objetivo del ejercicio 3.",
+      "enunciado": "Coloca aquí el enunciado del ejercicio 3.",
+      "pistas": [],
+      "solucion": "Espacio reservado para la solución o conclusiones del ejercicio 3.",
+      "recursos": []
+    }
+  ]
+}
