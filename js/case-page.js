@@ -20,11 +20,14 @@ const CASE_DATA = {
         {
             id: 'ej2',
             titulo: 'Ejercicio 2',
-            objetivo: 'Descripción breve del objetivo del ejercicio 2.',
-            enunciado: 'Coloca aquí el enunciado del ejercicio 2.',
-            pistas: ['Pista 1'],
-            solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 2.',
-            recursos: []
+            objetivo: 'Entendimiento de los datos',
+            enunciado: 'Usar los datasets proporcionados y más información para aplicar lo aprendido en la segunda etapa del ciclo CRISP-DM.',
+            solucion: 'Jupyter Notebook con análisis exploratorio de datos para los datasets.',
+            recursos: [
+                { url: '../assets/docs/Caso01/ED -  Le Tour de France Data Set.pdf', text: 'ED -  Le Tour de France Data Set.pdf' },
+                { url: '../assets/docs/Caso01/ED - Tour de France from 1903-2022 Data Set.pdf', text: 'ED - Tour de France from 1903-2022 Data Set.pdf' },
+                { url: '../assets/docs/Caso01/ED - Tour de France Winners Data Set.pdf', text: 'ED - Tour de France Winners Data Set.pdf' }
+            ]
         },
         {
             id: 'ej3',
