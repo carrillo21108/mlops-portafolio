@@ -1,40 +1,42 @@
 // Lógica específica para páginas de casos de estudio con ejercicios
 (function() {
   // Datos embebidos del caso para evitar dependencias de archivos JSON externos
-  const CASE_DATA = {
+// Datos del caso de estudio embebidos en el JS
+const CASE_DATA = {
     titulo: 'Caso de Estudio 01 - FNCG',
     descripcion: 'Ejercicios del Caso 01 basados en el documento PDF proporcionado.',
     fuente: '../assets/docs/Caso01/C1-FNCG.pdf',
     ejercicios: [
-      {
-        id: 'ej1',
-        titulo: 'Ejercicio 1',
-        objetivo: 'Descripción breve del objetivo del ejercicio 1.',
-        enunciado: 'Coloca aquí el enunciado del ejercicio 1.',
-        pistas: ['Pista 1', 'Pista 2'],
-        solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 1.',
-        recursos: []
-      },
-      {
-        id: 'ej2',
-        titulo: 'Ejercicio 2',
-        objetivo: 'Descripción breve del objetivo del ejercicio 2.',
-        enunciado: 'Coloca aquí el enunciado del ejercicio 2.',
-        pistas: ['Pista 1'],
-        solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 2.',
-        recursos: []
-      },
-      {
-        id: 'ej3',
-        titulo: 'Ejercicio 3',
-        objetivo: 'Descripción breve del objetivo del ejercicio 3.',
-        enunciado: 'Coloca aquí el enunciado del ejercicio 3.',
-        pistas: [],
-        solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 3.',
-        recursos: []
-      }
+        {
+            id: 'ej1',
+            titulo: 'Ejercicio 1',
+            objetivo: 'Entendimiento del negocio',
+            enunciado: `Investigar sobre el deporte (ciclismo de ruta o ciclismo en general) y sobre el evento (Tour de France) para aplicar lo aprendido en la primera etapa del ciclo CRISP-DM: Entendimiento del Negocio.`,
+            solucion: 'Investigación sobre el ciclismo y el Tour de France.',
+            recursos: [
+                { url: '../assets/docs/Caso01/Caso de Estudio 01 - MLOPS.pdf', text: 'Caso de Estudio 01 - MLOPS.pdf' }
+            ]
+        },
+        {
+            id: 'ej2',
+            titulo: 'Ejercicio 2',
+            objetivo: 'Descripción breve del objetivo del ejercicio 2.',
+            enunciado: 'Coloca aquí el enunciado del ejercicio 2.',
+            pistas: ['Pista 1'],
+            solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 2.',
+            recursos: []
+        },
+        {
+            id: 'ej3',
+            titulo: 'Ejercicio 3',
+            objetivo: 'Descripción breve del objetivo del ejercicio 3.',
+            enunciado: 'Coloca aquí el enunciado del ejercicio 3.',
+            pistas: [],
+            solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 3.',
+            recursos: []
+        }
     ]
-  };
+};
 
   document.addEventListener('DOMContentLoaded', () => {
     const titleEl = document.getElementById('case-title');
