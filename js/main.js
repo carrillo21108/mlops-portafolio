@@ -62,7 +62,7 @@ function loadData() {
         {
         "title": "Caso de Estudio 01: Tour de France",
         "description": "Análisis de datos de la carrera ciclista más importante del mundo.",
-        "tags": ["CRIPS-DM", "Entendimiento de Negocio", "Entendimiento de datos"],
+        "tags": ["CRISP-DM", "Entendimiento de Negocio", "Entendimiento de datos"],
         "link": "casos-estudio/caso-estudio01.html",
         "company": "UVG",
         "industry": "EDA"

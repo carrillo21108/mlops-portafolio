@@ -32,11 +32,14 @@ const CASE_DATA = {
         {
             id: 'ej3',
             titulo: 'Ejercicio 3',
-            objetivo: 'Descripción breve del objetivo del ejercicio 3.',
-            enunciado: 'Coloca aquí el enunciado del ejercicio 3.',
-            pistas: [],
-            solucion: 'Espacio reservado para la solución o conclusiones del ejercicio 3.',
-            recursos: []
+            objetivo: 'Análisis de los datos',
+            enunciado: `Con base en la información recopilada de los primeros incisos, plantear una solución que
+            se apoye en datos para optimizar los procesos actuales de la Federación Nacional de
+            Ciclismo de Guatemala.`,
+            solucion: 'Uso de la data para modelo.',
+            recursos: [
+                { url: '../assets/docs/Caso01/Propuesta de Optimización de Procesos Actuales de la Federación de Ciclismo.pdf', text: 'Propuesta de Optimización de Procesos Actuales de la Federación de Ciclismo.pdf' }
+            ]
         }
     ]
 };
